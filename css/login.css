@@ -1,0 +1,231 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.fundo {
+  width: 100%;
+  height: 1024px;
+  background: rgb(255, 253, 222);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.container {
+  width: 900px;
+  height: 800px;
+  background: rgb(204, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 136px;
+  left: 270px;
+  overflow: hidden;
+}
+.login {
+  width: 784px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 206px;
+  left: 328px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.ret-email {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 480px;
+  left: 326px;
+  overflow: hidden;
+}
+.email {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 403px;
+  left: 340px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.senha {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 593px;
+  left: 340px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.ret-senha {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 673px;
+  left: 326px;
+  overflow: hidden;
+}
+input[type="password"] {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 673px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 50px;
+}
+.ret-botoes {
+  width: 789px;
+  height: 116px;
+  background: rgb(217, 255, 217);
+  opacity: 1;
+  position: absolute;
+  top: 786px;
+  left: 328px;
+  overflow: hidden;
+}
+.ret-cadastrar {
+  width: 214px;
+  height: 58px;
+  background: rgba(255,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 815px;
+  left: 872px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.ret-ajuda {
+  width: 214px;
+  height: 58px;
+  background: rgba(255,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 815px;
+  left: 620px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.ret-logar {
+  width: 214px;
+  height: 58px;
+  background: rgba(255,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 815px;
+  left: 360px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+input[type="email"] {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 480px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}
+.name {
+  color: #fff;
+}
+.ajuda {
+  width: 174px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 820px;
+  left: 640px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.ret-dados {
+  width: 214px;
+  height: 58px;
+  background: rgba(255,242,242,1);
+  opacity: 1;
+  position: absolute;
+  top: 815px;
+  left: 1212px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.dados {
+  width: 214px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 820px;
+  left: 1212px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+.logar {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 820px;
+  left: 361px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.cadastrar {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 820px;
+  left: 872px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.logo {
+  width: 252px;
+  height: 222px;
+  background: url("../images/v12_18.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 136px;
+  left: 18px;
+  overflow: hidden;
+}
+.logar:hover {
+  transform: scale(1.2);
+}
+.cadastrar:hover {
+  transform: scale(1.2);
+}
+.dados:hover {
+  transform: scale(1.2);
+}
