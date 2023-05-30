@@ -104,7 +104,7 @@ input[type="password"] {
 .ret-cadastrar {
   width: 214px;
   height: 58px;
-  background: rgba(255,242,242,1);
+  background: rgb(255, 201, 201);
   opacity: 1;
   position: absolute;
   top: 815px;
@@ -115,7 +115,7 @@ input[type="password"] {
 .ret-ajuda {
   width: 214px;
   height: 58px;
-  background: rgba(255,242,242,1);
+  background: rgb(255, 201, 201);
   opacity: 1;
   position: absolute;
   top: 815px;
@@ -126,7 +126,7 @@ input[type="password"] {
 .ret-logar {
   width: 214px;
   height: 58px;
-  background: rgba(255,242,242,1);
+  background: rgb(255, 201, 201);
   opacity: 1;
   position: absolute;
   top: 815px;
@@ -163,7 +163,7 @@ input[type="email"] {
 .ret-dados {
   width: 214px;
   height: 58px;
-  background: rgba(255,242,242,1);
+  background: rgb(255, 201, 201);
   opacity: 1;
   position: absolute;
   top: 815px;
@@ -227,5 +227,8 @@ input[type="email"] {
   transform: scale(1.2);
 }
 .dados:hover {
+  transform: scale(1.2);
+}
+.ajuda:hover {
   transform: scale(1.2);
 }

@@ -1,0 +1,367 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.fundo {
+  width: 100%;
+  height: 1136px;
+  background: rgb(255, 253, 222);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.container {
+  width: 900px;
+  height: 100%;
+  background: rgb(204, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 270px;
+  overflow: hidden;
+}
+.cadastro {
+  width: 784px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.logo {
+  width: 252px;
+  height: 222px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 18px;
+  overflow: hidden;
+}
+.nome {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 128px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.data {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 255px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.email {
+  width: 250px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 382px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.cemail {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 512px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.senha {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 645px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.csenha {
+  width: 380px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 775px;
+  left: 338px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 40px;
+  opacity: 1;
+  text-align: left;
+}
+.ret-nome {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 190px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-data {
+  width: 253px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 317px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-email {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 444px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-cemail {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 577px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-senha {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 707px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-csenha {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 840px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-botoes {
+  width: 789px;
+  height: 116px;
+  background: rgb(217, 255, 217);
+  opacity: 1;
+  position: absolute;
+  top: 976px;
+  left: 326px;
+  overflow: hidden;
+}
+.ret-cadastro {
+  width: 214px;
+  height: 58px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 1005px;
+  left: 872px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.ret-dados {
+  width: 214px;
+  height: 58px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 1005px;
+  left: 1212px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.ret-login {
+  width: 214px;
+  height: 58px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 1005px;
+  left: 360px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.login {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1010px;
+  left: 360px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.dados {
+  width: 214px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1010px;
+  left: 1212px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 30px;
+  opacity: 1;
+  text-align: center;
+}
+.cadastrar {
+  width: 213px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1010px;
+  left: 872px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.name {
+  color: #fff;
+}
+.ajuda {
+  width: 174px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 1010px;
+  left: 640px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.ret-ajuda {
+  width: 214px;
+  height: 58px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 1005px;
+  left: 620px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.login:hover {
+  transform: scale(1.2);
+}
+.cadastrar:hover {
+  transform: scale(1.2);
+  cursor: pointer;
+}
+.dados:hover {
+  transform: scale(1.2);
+}
+.ajuda:hover {
+  transform: scale(1.2);
+}
+#email {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 444px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}
+#nome {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 190px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}
+#data {
+  width: 253px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 317px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 30px;
+}
+#cemail {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 577px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}
+#senha {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 707px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}
+#csenha {
+  width: 789px;
+  height: 65px;
+  background: rgba(255,255,255,1);
+  opacity: 1;
+  position: absolute;
+  top: 840px;
+  left: 326px;
+  overflow: hidden;
+  font-size: 45px;
+}

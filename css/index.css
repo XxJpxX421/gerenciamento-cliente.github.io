@@ -1,0 +1,78 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.fundo {
+  width: 100%;
+  height: 1024px;
+  background: rgb(255, 253, 222);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.quadradoinfo {
+  width: 100%;
+  height: 422px;
+  background: rgb(204, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 236px;
+  left: 32px;
+  border: 4px solid rgba(3,58,255,1);
+  overflow: hidden;
+}
+.caso {
+  width: 100%;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 264px;
+  left: 64px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.logo {
+  width: 306px;
+  height: 298px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 696px;
+  left: 26px;
+  overflow: hidden;
+}
+.ret-login {
+  width: 383px;
+  height: 169px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 774px;
+  left: 600px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.voltar {
+  width: 350px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 798px;
+  left: 615px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.voltar:hover {
+  transform: scale(1.2);
+}
