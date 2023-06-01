@@ -13,19 +13,40 @@
         <title>Acessar Banco de Dados</title>
     </head>
     <body>
+        <form action="senha.php" method="post">
         <div class="fundo">
             <div class="logo"></div>
-            <div class="container"></div>
+            <div class="container"><?php
+            if(isset($_POST['senha'])){ 
+                $senha = $_POST['senha']; 
+            
+                if($senha == "1234"){ 
+                    header("Location: dados.php");
+                    exit();
+                } else {
+                    $mensagem = "Acesso Negado";
+                    $classeRetSenha = "ret-senha erro";
+    }
+} else {
+    $classeRetSenha = "ret-senha"; 
+}
+            ?></div>
             <div class="ret-botoes">
             </div>
             <div class="botao-enviar"></div>
             <div class="botao-voltar"></div>
-            <span class="enviar">Entrar</span>
+            <button type="submit"><span class="enviar">Entrar</span></button>
             <a href="login.php"><span class="voltar">Voltar</span></a>
             <span class="titulo">Esta Área é apenas para Administradores!! Por favor, para acessá-la, insira a senha abaixo.</span>
+            <div class="<?php echo $classeRetSenha; ?>"></div>
             <div class="ret-senha">
             </div>
+            <?php if(isset($mensagem)): ?>
+            <div class="mensagem-erro"><?php echo $mensagem; ?></div>
+        <?php endif; ?>
             <input type="password" name="senha" id="senha">
+            
         </div>
+    </form>
     </body>
     </html>

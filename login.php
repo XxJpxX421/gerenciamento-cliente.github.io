@@ -27,7 +27,7 @@
         <div class="ret-ajuda"></div>
         <input type="email" name="email" id="email">
         <div class="name"></div>
-        <span class="ajuda">Ajuda</span>
+        <a href="ajuda.php"><span class="ajuda">Ajuda</span></a>
         <div class="ret-dados"></div>
         <a href="senha.php"><span class="dados">Banco de Dados</span></a>
         <a href="index.php"><span class="logar">Logar</span></a>

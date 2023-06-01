@@ -1,0 +1,183 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-size: 14px;
+}
+.fundo {
+  width: 100%;
+  height: 1024px;
+  background: rgb(255, 253, 222);
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.logo {
+  width: 330px;
+  height: 299px;
+  background: url("../images/logo.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: relative;
+  top: 0px;
+  left: 0px;
+  overflow: hidden;
+}
+.container {
+  width: 892px;
+  height: 100%;
+  background: rgb(204, 255, 255);
+  opacity: 1;
+  position: absolute;
+  top: 0px;
+  left: 330px;
+  overflow: hidden;
+}
+.contato {
+  width: 784px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 0px;
+  left: 384px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 96px;
+  opacity: 1;
+  text-align: center;
+}
+.insta {
+  width: 605px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 306px;
+  left: 524px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 48px;
+  opacity: 1;
+  text-align: center;
+}
+.email {
+  width: 605px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 505px;
+  left: 575px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.zap {
+  width: 605px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 732px;
+  left: 511px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.instaimage {
+  width: 164px;
+  height: 156px;
+  background: url("../images/insta.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 262px;
+  left: 384px;
+  overflow: hidden;
+}
+.gmailimage {
+  width: 164px;
+  height: 125px;
+  background: url("../images/gmail-removebg-preview.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 476px;
+  left: 384px;
+  overflow: hidden;
+}
+.zapimage {
+  width: 174px;
+  height: 207px;
+  background: url("../images/zap.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 659px;
+  left: 374px;
+  overflow: hidden;
+}
+.qrcode {
+  width: 200px;
+  height: 200px;
+  background: url("../images/qr.png");
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover;
+  opacity: 1;
+  position: absolute;
+  top: 800px;
+  left: 980px;
+  overflow: hidden;
+}
+.ret-voltar {
+  width: 214px;
+  height: 58px;
+  background: rgb(255, 201, 201);
+  opacity: 1;
+  position: absolute;
+  top: 870px;
+  left: 620px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  overflow: hidden;
+}
+.voltar {
+  width: 174px;
+  color: rgba(0,0,0,1);
+  position: absolute;
+  top: 875px;
+  left: 640px;
+  font-family: Keania One;
+  font-weight: Regular;
+  font-size: 32px;
+  opacity: 1;
+  text-align: center;
+}
+.voltar:hover {
+  transform: scale(1.2);
+}
+.insta:hover {
+  transform: scale(1.2);
+}
+.email:hover {
+  transform: scale(1.2);
+}
+.gmailimage:hover {
+  transform: scale(1.2);
+}
+.zap:hover {
+  transform: scale(1.2);
+}
+.zapimage:hover {
+  transform: scale(1.2);
+}
+.instaimage:hover {
+  transform: scale(1.2);
+}

@@ -44,7 +44,7 @@
             <a href="senha.php"><span class="dados">Banco de Dados</span></a>
             <span class="cadastrar">Cadastrar</span>
             <div class="name"></div>
-            <span class="ajuda">Ajuda</span>
+            <a href="ajuda.php"><span class="ajuda">Ajuda</span></a>
         </div>
     </body>
     </html>
