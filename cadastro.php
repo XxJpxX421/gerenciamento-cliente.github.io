@@ -14,7 +14,36 @@
     </head>
     <body>
         <div class="fundo">
+            <form action="cadastro.php" method="post">
             <div class="container"></div>
+            <?php
+        if (isset($_POST['submit'])) {
+            $nome = $_POST['nome'];
+            $email = $_POST['email'];
+            $data = $_POST['data_de_nascimento'];
+            $senha = $_POST['senha'];
+            $csenha = $_POST['csenha'];
+            $cemail = $_POST['cemail'];
+
+            if ($cemail == $email && $csenha == $senha) {
+                $stmt = $pdo->prepare('SELECT COUNT(*) FROM cliente WHERE data_de_nascimento = ?');
+                $stmt->execute([$data]);
+                $count = $stmt->fetchColumn();
+        
+                $stmt = $pdo->prepare('INSERT INTO cliente
+                (nome, email, senha, data_de_nascimento)
+                VALUES(:nome, :email, :senha, :data_de_nascimento)');
+                $stmt->execute([
+                    'nome' => $nome,
+                    'email' => $email,
+                    'senha' => $senha,
+                    'data_de_nascimento' => $data
+                ]);
+            } else {
+                echo "<div class='erro'>Os campos de email ou senha não coincidem.</div>";
+            }
+        }
+        ?>
             <span class="cadastro">Cadastro</span>
             <div class="logo"></div>
             <span class="nome">Nome:</span>
@@ -42,8 +71,8 @@
             <div class="ret-ajuda"></div>
             <a href="login.php"><span class="login">Fazer Login</span></a>
             <a href="senha.php"><span class="dados">Banco de Dados</span></a>
-            <span class="cadastrar">Cadastrar</span>
-            <div class="name"></div>
+            <button type="submit"><span class="cadastrar">Cadastrar</span></button>
+            <div class="name"></div></form>
             <a href="ajuda.php"><span class="ajuda">Ajuda</span></a>
         </div>
     </body>

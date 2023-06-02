@@ -15,7 +15,6 @@
     <body>
         <div class="fundo">
             <div class="banco">
-                
             </div>
             <div class="name"></div>
             <div class="name"></div>
