@@ -1,3 +1,4 @@
+<?php include 'db.php'; ?>
 <!DOCTYPE html>
 <html lang="en">
     <head>
@@ -14,14 +15,40 @@
     </head>
     <body>
         <div class="fundo">
-            <div class="banco">
+            <?php
+$stmt = $pdo->query('SELECT * FROM registros ORDER BY id');
+$clientes = $stmt->fetchAll(PDO::FETCH_ASSOC);
+
+if(count($clientes) == 0) {
+    echo "<div class='banco'>";
+    echo "<h1>Nenhum registro enviado</h1>";
+    echo '</div>';
+} else {
+    echo "<div class='banco'>";
+    echo '<table border="1">';
+    echo '<thead><tr><th>Nome</th><th>Data</th><th>E-mail</th><th>Senha</th><th colspan="2">Deletar?</th></tr></thead>';
+    echo '<tbody>';
+
+    foreach ($clientes as $cliente) {
+        echo '<tr>';
+        echo '<td>' . $cliente['nome'] . '</td>';
+        echo '<td>' . date('d/m/Y', strtotime($cliente['data'])) . '</td>';
+        echo '<td>' . $cliente['email'] . '</td>';
+        echo '<td>' . $cliente['senha'] . '</td>';
+        echo '<td><a style="color:black;" href="deletar.php?id=' . $cliente['id'] . '">Deletar</a></td>';
+        echo '</tr>';
+        echo '</div>';
+        
+    }
+    echo '</tbody>';
+    echo '</table>';
+}
+?>
             </div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
-            <div class="name"></div>
             <span class="text-banco">Banco de Dados dos Clientes Registrados</span>
+            <div class="ret-voltar"></div>
             <div class="logo"></div>
+            <a href="senha.php"><span class="voltar">Voltar</span></a>
         </div>
     </body>
     </html>
